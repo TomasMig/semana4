@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #cc8e13;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav {
+    margin: 5px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10rem;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main h2 {
+    display: block;
+    text-align: center;
+    width: 90%;
+}
+
+section {
+    border:solid 2px #130d83;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 90%;
+    height: 700px;
+}
+
+.form{
+    background-color: #6a63ef;
+    border-style: dotted;
+    border-radius: 8px;
+    border-color: #130d83;
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.form a img:hover {
+    transform: scale(0.9);
+    transition: all 300ms;
+}
+
+.footer {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #cc8e13;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cambia letra de los dias de los horarios*/
+.dias th, .titulo {
+    font-weight: bold;
+    font-size: 24px;
+}
+/* Cambia la letra de las horas de los horarios */
+.horas {
+    font-style: italic;
+    font-size: 18px;
+}
+/* las medidas para el size fueron tomadas del cuadro brindado en el pdf */
+/* Cambia los colores de los dias y horarios */
+.lun {
+    color: blue;
+}
+.mar {
+    color: red;
+}
+.mie {
+    color: blueviolet;
+}
+.jue {
+    color: green;
+}
+.vie {
+    color: saddlebrown;
+}
